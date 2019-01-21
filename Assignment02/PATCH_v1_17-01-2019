@@ -5,14 +5,14 @@ contained in the Makefile.
 
 Signed-off-by: Vivien Steffen <vsteffen@student.42.fr>
 ---
---- ./Makefile.orig	2019-01-14 22:35:50.935836152 +0100
-+++ ./Makefile	2018-11-04 19:11:35.734115999 +0100
+--- linux/Makefile	2019-01-21 17:14:51.811979058 +0100
++++ linux/Makefile.orig	2019-01-21 17:50:29.682858971 +0100
 @@ -2,7 +2,7 @@
- VERSION = 4
- PATCHLEVEL = 18
- SUBLEVEL = 5
+ VERSION = 5
+ PATCHLEVEL = 0
+ SUBLEVEL = 0
 -EXTRAVERSION = -thor_kernel
-+EXTRAVERSION =
- NAME = Merciless Moray
++EXTRAVERSION = -rc2
+ NAME = Shy Crocodile
  
  # *DOCUMENTATION*
