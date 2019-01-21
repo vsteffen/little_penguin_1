@@ -1,0 +1,18 @@
+From: Vivien Steffen <vsteffen@student.42.fr>
+Subject: [PATCH v1 17/01/2019] build: modify kernel version string
+Patch to modify the kernel version string in the EXTRAVERSION field
+contained in the Makefile.
+
+Signed-off-by: Vivien Steffen <vsteffen@student.42.fr>
+---
+--- ./Makefile.orig	2019-01-14 22:35:50.935836152 +0100
++++ ./Makefile	2018-11-04 19:11:35.734115999 +0100
+@@ -2,7 +2,7 @@
+ VERSION = 4
+ PATCHLEVEL = 18
+ SUBLEVEL = 5
+-EXTRAVERSION = -thor_kernel
++EXTRAVERSION =
+ NAME = Merciless Moray
+ 
+ # *DOCUMENTATION*
